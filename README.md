@@ -33,3 +33,9 @@
 
         `sudo docker run -it --rm -h host_ubuntu --dns=114.114.114.114 -- dns-search=test.com ubuntu`
   
+
+## 思维导图
+
+[文件](docker.xmind)
+
+![xmind-png](docker.png)
