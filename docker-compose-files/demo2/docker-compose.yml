@@ -1,0 +1,15 @@
+# yaml 配置
+version: '3'
+
+services: 
+  web: 
+    build: .
+    ports: 
+      - '5000:5000'
+
+  redis: 
+    image: 'redis:alpine'
+
+# 该 compose 文件定义了两个服务：web 和 redis
+# web：该 web 服务使用从 Dockerfile 当前目录中构建的镜像。然后，它将容器和主机绑定到暴露的端口 5000. 此示例服务使用的 flask web 服务器默认端口是 5000
+# redis：该 redis 服务使用 Docker Hub 的公共 Redis 映像
