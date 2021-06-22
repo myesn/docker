@@ -31,7 +31,7 @@
     
     2. 手动指定容器的配置
 
-        `sudo docker run -it --rm -h host_ubuntu --dns=114.114.114.114 -- dns-search=test.com ubuntu`
+        `sudo docker run -it --rm -h host_ubuntu --dns=114.114.114.114 --dns-search=test.com ubuntu`
   
 
 ## 思维导图
